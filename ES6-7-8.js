@@ -146,6 +146,27 @@
 // const b = array[1]
 
 //Object
+// const address = {
+//     contry: 'Russia',
+//     city: 'Moscow',
+//     street: 'Lenina',
+//     concat: function() {
+//         return `${this.contry} ${this.city} ${this.street}`
+//     }
+// }
+
+//const {city, country, street = 'Tverskaya', concat: addressConcat} = address
+
+//console.log(addressConcat.call(address))
+//console.log(address.concat())
+
+//const {city, ...rest} = address
+//console.log(city)
+//console.log(rest)
+
+// const newAddress = {...address, street: 'Tverskaya', code: 123}
+// console.log(newAddress)
+
 
 
 
