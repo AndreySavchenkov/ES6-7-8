@@ -1,6 +1,12 @@
+const cityField = 'city'
+
+const job = 'Frontend'
+
 const person = {
     age: 26,
     name: 'Irina',
+    job,
+    [cityField]: 'Saint-Peterburg',
     'country-live': 'Russia',
     print: () => 'Person',
     toString() {
@@ -12,5 +18,20 @@ const person = {
     }
 }
 
-console.log(person.toString())
-console.log(person.print())
+// console.log(person.toString())
+// console.log(person.print())
+// console.log(person)
+
+//----------------------------------------Methods-------------------------------------------------
+ const first = {a: 1}
+ const second = {b: 2}
+
+// //console.log(Object.is(20, 20))
+ const obj = Object.assign({}, first, second, {c: 3, d: 4})
+// console.log(first)
+//console.log(obj)
+
+console.log(Object.entries(obj))
+console.log(Object.keys(obj))
+console.log(Object.values(obj))
+
